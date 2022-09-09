@@ -1,0 +1,24 @@
+njf_no_ode:
+  path: './plot_data/overfitting_baselines/njf_no_ode_hi.csv'
+  X: 'Step'
+  Y: 'Value'
+  label: 'NJF(t) No ODE'
+  color: 'r'
+njf_plus_ode:
+  path: './plot_data/overfitting_baselines/njf_ode.csv'
+  X: 'Step'
+  Y: 'Value'
+  label: 'NJF(t) Plus ODE'
+  color: 'c'
+disp_mean_noode:
+  path: './plot_data/overfitting_baselines/displacements_mean_no_ode_hi.csv'
+  X: 'Step'
+  Y: 'Value'
+  label: 'Displacement(t), Mean, No ODE'
+  color: 'b'
+disp_mean:
+  path: './plot_data/overfitting_baselines/displacements_mean_hi.csv'
+  X: 'Step'
+  Y: 'Value'
+  label: 'Displacement(t), Mean, With ODE'
+  color: 'g'
